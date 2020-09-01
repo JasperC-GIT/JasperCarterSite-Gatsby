@@ -29,30 +29,30 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'JammingProject.png',
     title: 'Jamming',
     info: 'This is some more info',
     info2: 'More info',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/JasperC-GIT/JasperCarterSite-Gatsby', // if no repo, the button will not show up
   },
+  // {
+  //   id: nanoid(),
+  //   img: 'project.png',
+  //   title: 'Grocery List',
+  //   info: '',
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/JasperC-GIT/JasperCarterSite-Gatsby', // if no repo, the button will not show up
+  // },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'Grocery List',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
+    img: 'LamontDanceWebsite.png',
     title: 'Lamont Dance Studio',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/JasperC-GIT/JasperCarterSite-Gatsby',
   },
 ];
 
