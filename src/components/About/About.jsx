@@ -39,11 +39,11 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Im a 22 year old graduate of Billy Blues University, completing a diploma of digital media.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                    'Currently working at Device Technologies within the  IT department as support/ administrator for the last 2 years. Learning my IT skills from University, experience and obtaining knowledge from my own studies.'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}

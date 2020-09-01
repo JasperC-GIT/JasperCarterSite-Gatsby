@@ -53,3 +53,22 @@ a:hover {
     transform: translateX(2px);
   }
 }
+
+.text-color-secondary {
+  background-image: linear-gradient(180deg,transparent 18%,#ff9090 0,#ff9090 95%,transparent 0);
+  padding-right: 10px;
+  padding-left:5px;
+  // background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+
+  // Responsive text purple style
+  @include respond(phone) {
+    background-image: none;
+    -webkit-text-fill-color: $secondary-color;
+  }
+
+  &:hover {
+    transform: translateX(2px);
+  }
+}
